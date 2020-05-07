@@ -52,7 +52,7 @@ footer:
   since: 2017
 
   # visitors count
-  counter: true  
+  counter: true
   # Icon between year and copyright info.
   icon:
     # Icon name in fontawesome, see: https://fontawesome.com/v4.7.0/icons/
@@ -82,7 +82,7 @@ footer:
   # http://www.beian.miit.gov.cn
   beian:
     enable: true
-    icp: 粤ICP备19028706号
+    icp: 京ICP备10046444号-7
 
   # Any custom text can be defined here.
   #custom_text: Hosted by <a href="https://pages.coding.me" class="theme-link" rel="noopener" target="_blank">Coding Pages</a>
@@ -101,8 +101,8 @@ creative_commons:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/ipyker
+  enable: true
+  permalink: https://github.com/yourbatman
   title: Follow me on GitHub
 
 
@@ -200,10 +200,10 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/ipyker || github
-  E-Mail: mailto:pyker@qq.com || envelope
-  Weibo: https://weibo.com/viszhang || weibo
-  QQ: tencent://message/?uin=123435796&Site=&menu=yes || qq
+  GitHub: https://github.com/yourbatman || github
+  E-Mail: mailto:shixiangfang@aliyun.com || envelope
+  Weibo: https://weibo.com/fangshixiang || weibo
+  QQ: tencent://message/?uin=641385712&Site=&menu=yes || qq
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
@@ -223,11 +223,10 @@ links_title: 推荐阅读
 #links_layout: block
 links_layout: inline
 links:
-  运维生存时间: http://www.ttlsa.com/
-  爱运维: https://www.iyunw.cn
-  Nginxconfig: https://nginxconfig.io/
-  Linux命令手册: http://linux.51yip.com/
-  echarts可视化库: https://echarts.baidu.com/index.html
+  CSDN: https://fangshixiang.blog.csdn.net/
+  博客园: https://www.cnblogs.com/fangshixiang/
+  知乎: https://www.zhihu.com/people/fangshixiang
+  博主介绍: https://mp.weixin.qq.com/s/PGIFtpI7aZaxY7es0F6C6Q
 
 # Sidebar Avatar
 avatar:
@@ -240,7 +239,7 @@ avatar:
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
   opacity: 1
   # If true, the avatar would be rotated with the cursor.
-  rotated: false
+  rotated: true
 
 # Table Of Contents in the Sidebar
 toc:
@@ -451,7 +450,7 @@ font:
   enable: true
 
   # Uri of fonts host, e.g. //fonts.googleapis.com (Default).
-  host: 
+  host:
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -489,7 +488,7 @@ font:
     external: true
     family: Roboto Mono
     size:
- 
+
 # ---------------------------------------------------------------
 # Third Party Services Settings
 # See: https://theme-next.org/docs/third-party-services/
@@ -652,7 +651,7 @@ valine:
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC80NDM5Mi8yMDkyNA==
+livere_uid: MTAyMC81MDAwNi8yNjQ5Nw==
 
 # Gitment
 # Introduction: https://github.com/imsun/gitment
@@ -1218,6 +1217,6 @@ images: images
 passage_end_tag:
   enabled: true
 
-# Online contact 
+# Online contact
 daovoice: true
 daovoice_app_id: bd399fce

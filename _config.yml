@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 派 | Pyker
-subtitle:
-description: 与其临渊羡鱼，不如退而结网。
-keywords:
-author: 丨Pyker丨
+title: BAT的乌托邦
+subtitle: BAT-utopia
+description: 一个前25年还不会写Hallo World的半残程序猿
+keywords: Java | Spring | Spring Boot | Spring Cloud | Dubbo | Netflix | BAT
+author: A哥(YourBatman)
 language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.ipyker.com
+url: https://www.yourbatman.cn
 root: /
 permalink: :year/:month/:day/:title.html
 permalink_defaults:
@@ -79,7 +79,7 @@ theme: nexT
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/ipyker/ipyker.github.io
+  repository: https://github.com/yourbatman/yourbatman.github.io.git
   branch: master
 
 search:
